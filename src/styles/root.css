@@ -1,0 +1,15 @@
+:root {
+    --main-color: #505050;
+    --secondary-color: #1A1B16;
+    --secondary-color-opacity: #1A1B1680;
+    --white: #F6F6F6;
+    --black: #000000;
+    --green: #00FC93;
+    --orange: #FC7A00;
+    --update-color: #D5E314;
+    --delete-color: #E31414;
+
+    --main-font: system-ui, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}

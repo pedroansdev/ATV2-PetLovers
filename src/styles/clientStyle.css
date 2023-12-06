@@ -1,0 +1,89 @@
+div.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 95%;
+
+    margin: auto;
+}
+
+div.table table {
+    font-family: var(--main-font);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div.table table td,
+div.table table th {
+    border: 2px solid var(--secondary-color);
+
+    text-align: left;
+
+    padding: 8px;
+
+    color: var(--white);
+}
+
+
+ul {
+    list-style-type:decimal;
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+}
+
+th.idC {
+    width: 5%;
+}
+
+th.rgsC {
+    width: 12%;
+}
+
+th.phonesC {
+    width: 14%;
+}
+
+th.petsC {
+    width: 20%;
+}
+
+th.nameC {
+    width: 34%;
+}
+
+th.operationsC {
+    width: 15%;
+}
+
+/* REGISTER AND UPDATE FORM */
+
+.formClient {
+    width: 90%;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    color: var(--white);
+}
+
+.row {
+    width: 100%;
+    margin: 5px;
+
+    display: flex;
+    font-weight: bold;
+}
+
+.textAreas label, .formClient input {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: bold;
+}
+
+

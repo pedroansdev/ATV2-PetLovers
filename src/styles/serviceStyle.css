@@ -1,0 +1,38 @@
+div.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 95%;
+
+    margin: auto;
+}
+
+div.table table {
+    font-family: var(--main-font);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div.table table td,
+div.table table th {
+    border: 2px solid var(--secondary-color);
+
+    text-align: left;
+
+    padding: 8px;
+
+    color: var(--white);
+}
+
+th.idS {
+    width: 10%;
+}
+
+th.nameS {
+    width: 45%;
+}
+
+th.priceS, th.operationsS, th.typeS {
+    width: 15%;
+}
