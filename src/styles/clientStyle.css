@@ -55,35 +55,3 @@ th.nameC {
 th.operationsC {
     width: 15%;
 }
-
-/* REGISTER AND UPDATE FORM */
-
-.formClient {
-    width: 90%;
-    margin: auto;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    gap: 20px;
-
-    color: var(--white);
-}
-
-.row {
-    width: 100%;
-    margin: 5px;
-
-    display: flex;
-    font-weight: bold;
-}
-
-.textAreas label, .formClient input {
-    display: flex;
-    flex-direction: column;
-
-    font-weight: bold;
-}
-
-

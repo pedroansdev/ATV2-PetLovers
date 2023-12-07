@@ -5,6 +5,13 @@ import '../../styles/serviceStyle.css';
 import FooterComp from "../../components/footerComponent";
 import HeaderComp from "../../components/headerComponent";
 
+function warningUpdate(){
+    return window.alert(`ATENÇÃO\nEste botão NÃO está funcionando para este protótipo de design do site, portanto, não é possível atualizar nenhum serviço`);
+}
+
+function warningDelete(){
+    return window.alert(`ATENÇÃO\nEste botão NÃO está funcionando para este protótipo de design do site, portanto, não é possível deletar nenhum serviço`);
+}
 
 export default class DeleteService extends Component {
     render() {
@@ -33,14 +40,14 @@ export default class DeleteService extends Component {
                                     <td>Banho e tosa</td>
                                     <td>Cuidados</td>
                                     <td>R$ 80.00</td>
-                                    <td><a className="upButton" href="/service/update">Atualizar</a><a className="delButton" href="/service/delete">Deletar</a></td>
+                                    <td><a className="upButton" onClick={warningUpdate}>Atualizar</a><a className="delButton" onClick={warningDelete}>Deletar</a></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Adestramento</td>
                                     <td>Cuidados</td>
                                     <td>R$ 100.00</td>
-                                    <td><a className="upButton" href="/service/update">Atualizar</a><a className="delButton" href="/service/delete">Deletar</a></td>
+                                    <td><a className="upButton" onClick={warningUpdate}>Atualizar</a><a className="delButton" onClick={warningDelete}>Deletar</a></td>
                                 </tr>
                             </table>
                         </div>

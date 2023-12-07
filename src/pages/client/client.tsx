@@ -5,6 +5,13 @@ import '../../styles/clientStyle.css';
 import FooterComp from "../../components/footerComponent";
 import HeaderComp from "../../components/headerComponent";
 
+function warningUpdate(){
+    return window.alert(`ATENÇÃO\nEste botão NÃO está funcionando para este protótipo de design do site, portanto, não é possível atualizar nenhum cliente`);
+}
+
+function warningDelete(){
+    return window.alert(`ATENÇÃO\nEste botão NÃO está funcionando para este protótipo de design do site, portanto, não é possível deletar nenhum cliente`);
+}
 
 export default class Client extends Component {
     render() {
@@ -47,7 +54,7 @@ export default class Client extends Component {
                                             <li>Juninho (Cachorro)</li>
                                         </ul>
                                     </td>
-                                    <td><a className="upButton" href="/product/update">Atualizar</a><a className="delButton" href="/product/delete">Deletar</a></td>
+                                    <td><a className="upButton" onClick={warningUpdate}>Atualizar</a><a className="delButton" onClick={warningDelete}>Deletar</a></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -69,7 +76,7 @@ export default class Client extends Component {
                                             <li>Leandrinho (Gato)</li>
                                         </ul>
                                     </td>
-                                    <td><a className="upButton" href="/product/update">Atualizar</a><a className="delButton" href="/product/delete">Deletar</a></td>
+                                    <td><a className="upButton" onClick={warningUpdate}>Atualizar</a><a className="delButton" onClick={warningDelete}>Deletar</a></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
@@ -94,7 +101,7 @@ export default class Client extends Component {
                                             <li>Visconde (Tartaruga)</li>
                                         </ul>
                                     </td>
-                                    <td><a className="upButton" href="/product/update">Atualizar</a><a className="delButton" href="/product/delete">Deletar</a></td>
+                                    <td><a className="upButton" onClick={warningUpdate}>Atualizar</a><a className="delButton" onClick={warningDelete}>Deletar</a></td>
                                 </tr>
                             </table>
                         </div>

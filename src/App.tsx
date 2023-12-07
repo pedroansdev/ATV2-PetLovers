@@ -59,23 +59,23 @@ function App() {
 
       <Route path = '/client' element = {<Client />}/>
       <Route path = '/client/register' element = {<RegisterClient />}/>
-      <Route path = '/client/update' element = {<UpdateClient />}/>
-      <Route path = '/client/delete' element = {<DeleteClient />}/>
+      {/* <Route path = '/client/update' element = {<UpdateClient />}/>
+      <Route path = '/client/delete' element = {<DeleteClient />}/> */}
 
       <Route path = '/product' element = {<Product />}/>
       <Route path = '/product/register' element = {<RegisterProduct />}/>
-      <Route path = '/product/update' element = {<UpdateProduct />}/>
-      <Route path = '/product/delete' element = {<DeleteProduct />}/>
+      {/* <Route path = '/product/update' element = {<UpdateProduct />}/>
+      <Route path = '/product/delete' element = {<DeleteProduct />}/> */}
 
       <Route path = '/service' element = {<Service />}/>
       <Route path = '/service/register' element = {<RegisterService />}/>
-      <Route path = '/service/update' element = {<UpdateService />}/>
-      <Route path = '/service/delete' element = {<DeleteService />}/>
+      {/* <Route path = '/service/update' element = {<UpdateService />}/>
+      <Route path = '/service/delete' element = {<DeleteService />}/> */}
 
       <Route path = '/pet' element = {<Pet />}/>
       <Route path = '/pet/register' element = {<RegisterPet />}/>
-      <Route path = '/pet/update' element = {<UpdatePet />}/>
-      <Route path = '/pet/delete' element = {<DeletePet />}/>
+      {/* <Route path = '/pet/update' element = {<UpdatePet />}/>
+      <Route path = '/pet/delete' element = {<DeletePet />}/> */}
     </Routes>
     </BrowserRouter>
   );

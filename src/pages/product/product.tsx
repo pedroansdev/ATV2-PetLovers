@@ -6,6 +6,13 @@ import FooterComp from "../../components/footerComponent";
 import HeaderComp from "../../components/headerComponent";
 import { Outlet } from "react-router-dom";
 
+function warningUpdate(){
+    return window.alert(`ATENÇÃO\nEste botão NÃO está funcionando para este protótipo de design do site, portanto, não é possível atualizar nenhum produto`);
+}
+
+function warningDelete(){
+    return window.alert(`ATENÇÃO\nEste botão NÃO está funcionando para este protótipo de design do site, portanto, não é possível deletar nenhum produto`);
+}
 
 export default class DeleteService extends Component {
     render() {
@@ -32,13 +39,13 @@ export default class DeleteService extends Component {
                                     <td>1</td>
                                     <td>Gravata</td>
                                     <td>R$ 10.00</td>
-                                    <td><a className="upButton" href="/product/update">Atualizar</a><a className="delButton" href="/product/delete">Deletar</a></td>
+                                    <td><a className="upButton" onClick={warningUpdate}>Atualizar</a><a className="delButton" onClick={warningDelete}>Deletar</a></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Lacinho</td>
                                     <td>R$ 10.00</td>
-                                    <td><a className="upButton" href="/product/update">Atualizar</a><a className="delButton" href="/product/delete">Deletar</a></td>
+                                    <td><a className="upButton" onClick={warningUpdate}>Atualizar</a><a className="delButton" onClick={warningDelete}>Deletar</a></td>
                                 </tr>
                             </table>
                         </div>
